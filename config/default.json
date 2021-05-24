@@ -1,0 +1,14 @@
+{
+    "mysql":{
+        "host": "localhost",
+        "user":"root",
+        "pass":"123456",
+        "banco_dados":"mercadoDB",
+        "dialect":"mysql"
+
+    },
+     "servidor":{
+         "porta":3000
+     }
+
+}

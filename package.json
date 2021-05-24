@@ -1,0 +1,28 @@
+{
+  "name": "api-sequelize",
+  "version": "1.0.0",
+  "description": "JavaScript com Sequelizer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./config/server.js",
+    "dev": "nodemon ./config/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amdfreitas/api-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amdfreitas/api-sequelize/issues"
+  },
+  "homepage": "https://github.com/amdfreitas/api-sequelize#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}

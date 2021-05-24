@@ -17,6 +17,20 @@ module.exports = (app) => {
             criarforneced: (forrneced) => {
                 const forn = app.repository.repforneced;
                 return forn.criaforneced(forrneced);
+            },
+            seacherforneced: (id) => {
+                const forn = app.repository.repforneced;
+                return forn.seacherforneced(id);
+            },
+            updateforneced: (forrneced) => {
+                const forn = app.repository.repforneced;
+                return forn.updateforneced(forrneced);
+            },
+            deleteforneced: (id) => {
+
+                const forn = app.repository.repforneced;
+                return forn.deleteforneced(id);
+
             }
 
     }

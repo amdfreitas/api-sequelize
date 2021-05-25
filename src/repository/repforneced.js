@@ -5,7 +5,7 @@ module.exports = (app) => {
     let forneced = {
 
         lista : () => {
-            return conn.tabforneced().findAll();
+            return conn.tabforneced().findAll({raw:true,nest:true});
         }, 
         criaforneced : (forneced) => {
             return conn.tabforneced().create(forneced);

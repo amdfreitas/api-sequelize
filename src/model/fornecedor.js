@@ -12,8 +12,12 @@ module.exports  = (app) => {
           listfornecedor: async (req, res) =>{
 
                const forn = app.controller.contforneced;
+               const serializ = app.util.serializador;
                await forn.listarFornecedords()
-                    .then(data => res.status(200).json(data))
+                    .then( (data) => {
+                      res.status(200);
+                      res.send(serializ.serializar(data,res.getHeader('Content-Type')));
+                    })
                     .catch(err => res.status(404).json(err));
 
           },

@@ -1,4 +1,4 @@
-const conf = require('config')
+const conf = require('config');
 const Sequelize = require('sequelize');
 
 module.exports = (app) => {

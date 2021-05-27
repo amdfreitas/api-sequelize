@@ -4,10 +4,14 @@ module.exports  = (app) => {
     let forcendores = {
 
           home: ( req, res) =>{
+            const forn = app.controller.criaTabelas;
+            forn.criatabelas();
+            res.send('dsfgdsfgdfgdfg');
+            /*
             const forn = app.controller.contforneced;
             forn.createTable();
             res.send('dsfgdsfgdfgdfg');
-
+          */
           },
           listfornecedor: async (req, res) =>{
 

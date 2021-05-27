@@ -6,7 +6,6 @@ const tipserializar = require('./src/util/serializador');
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
-
 app.use((req,res,next) => {
 
         let formatHeader = req.header('Accept');
@@ -26,14 +25,15 @@ app.use((req,res,next) => {
     
     });  
 
-    consign({cwd:'src'})
-            .include('db')
-            .then('util')
-            .then('repository')
-            .then('controller')
-            .then('model')
-            .then('routa')
-            .into(app);
+consign({cwd:'src'})
+        .include('db')
+        .then('util')
+        .then('repository')
+        .then('controller')
+        .then('model')
+        .then('routa')
+        .into(app);
 
+      
 
 module.exports = app;

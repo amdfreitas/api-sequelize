@@ -9,6 +9,22 @@
     },
      "servidor":{
          "porta":3000
+     },
+     "produto":{
+         "home":"/",
+         "criar":"/create/produto",
+         "listaAll":"/lista/produto",
+         "listafornecedid":"/seacher/fornecedor/:id/produto",
+         "delete":"/delete/produto/:id"
+
+     },
+     "fornecedor":{
+        "home":"/",
+        "criar":"/create/fornecedor",
+        "seacherId":"/seacher/fornecedor/:id",
+        "update":"/update/fornecedor",
+        "delete":"/delete/fornecedor/:id",
+        "listaAll":"/lista/fornecedor"
      }
 
 }

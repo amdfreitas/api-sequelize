@@ -6,7 +6,7 @@ module.exports  = (app) => {
           home: ( req, res) =>{
             const forn = app.controller.criaTabelas;
             forn.criatabelas();
-            res.send('dsfgdsfgdfgdfg');
+            res.send('Configuracao  do  banco de dados');
             /*
             const forn = app.controller.contforneced;
             forn.createTable();

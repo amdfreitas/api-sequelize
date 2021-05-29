@@ -1,6 +1,6 @@
 {
     "mysql":{
-        "host": "localhost",
+        "host": "mybanco",
         "user":"root",
         "pass":"123456",
         "banco_dados":"mercadoDB",

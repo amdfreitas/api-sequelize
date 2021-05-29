@@ -12,19 +12,19 @@
      },
      "produto":{
          "home":"/",
-         "criar":"/create/produto",
-         "listaAll":"/lista/produto",
-         "listafornecedid":"/seacher/fornecedor/:id/produto",
-         "delete":"/delete/produto/:id"
+         "criar":"/api/create/produto",
+         "listaAll":"/api/lista/produto",
+         "listafornecedid":"/api/seacher/fornecedor/:id/produto",
+         "delete":"/api/delete/produto/:id"
 
      },
      "fornecedor":{
         "home":"/",
-        "criar":"/create/fornecedor",
-        "seacherId":"/seacher/fornecedor/:id",
-        "update":"/update/fornecedor",
-        "delete":"/delete/fornecedor/:id",
-        "listaAll":"/lista/fornecedor"
+        "criar":"/api/create/fornecedor",
+        "seacherId":"/api/seacher/fornecedor/:id",
+        "update":"/api/update/fornecedor",
+        "delete":"/api/delete/fornecedor/:id",
+        "listaAll":"/api/lista/fornecedor"
      }
 
 }

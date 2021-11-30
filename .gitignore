@@ -1,6 +1,7 @@
 /mydocker
 docker-compose.yml
 .gitignore
+/node_modules
 # Logs
 logs
 *.log

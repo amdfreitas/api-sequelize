@@ -1,2 +1,2 @@
 # api-sequelize
-JavaScript com Sequelizer
+JavaScript com Sequelizer MongoDB

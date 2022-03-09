@@ -7,6 +7,7 @@ const serializarxml = (dados) => {
         dados =  dados.map((item) => {
             return {
                 'fornecedor':item
+                
             }
         });
     return jsonxml({['fornecedores']:dados});

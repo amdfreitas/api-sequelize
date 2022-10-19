@@ -25,6 +25,7 @@
         "update":"/api/update/fornecedor",
         "delete":"/api/delete/fornecedor/:id",
         "listaAll":"/api/lista/fornecedor"
+        
      }
 
 }
